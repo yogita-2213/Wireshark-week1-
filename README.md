@@ -37,12 +37,52 @@ The basic working process:
 4. Inspect: View detailed packet contents.
 5. Report: Identify network problems or suspicious activity.
 
-## Technologies Used
-Technology	               Purpose
-Wireshark	                 Packet capturing and analysis
-TCP/IP	                   Network communication
-DNS	                       Domain name resolution
-HTTP/HTTPS               	 Web communication
-UDP/TCP	                   Transport protocols
-Windows/Linux	             Operating system
-PCAP	                     Packet capture file format
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Wireshark | Packet capturing and network traffic analysis |
+| TCP/IP | Network communication |
+| DNS | Domain name resolution |
+| HTTP/HTTPS | Web communication |
+| UDP/TCP | Transport layer protocols |
+| Windows/Linux | Operating system |
+| PCAP | Packet capture file format |
+
+## 🚀 Main Features
+
+### 1. 📡 Packet Capturing
+Captures network packets in real time from available network interfaces.
+
+### 2. 🔍 Packet Filtering
+Filters network traffic using IP addresses, protocols, ports, and other fields.
+
+### 3. 🌐 Protocol Analysis
+Examines packet details across different network layers to understand network communication.
+
+### 4. 📊 Network Statistics
+Displays network conversations, endpoints, and protocol distribution for traffic analysis.
+
+## 🔬 Practical Implementation
+
+The project demonstrates network traffic analysis through the following experiments:
+
+| Experiment | What You Will Analyze |
+|------------|------------------------|
+| DNS Analysis | How domain names are resolved into IP addresses |
+| TCP Analysis | TCP three-way handshake (SYN, SYN-ACK, ACK) |
+| HTTP Analysis | Web request and response traffic |
+| IP Analysis | Source and destination IP addresses |
+| ICMP Analysis | Ping request and reply packets |
+| UDP Analysis | UDP-based network communication |
+
+## 🎯 Conclusion
+
+The Wireshark Network Traffic Analysis project demonstrates how network communication can be captured, monitored, and analyzed using packet analysis techniques.
+
+Through this project, we explored different network protocols such as TCP, UDP, DNS, HTTP, and ICMP. We also learned how to capture packets, apply filters, inspect packet details, and analyze network traffic.
+
+Wireshark provides valuable insights into network behavior and helps identify network issues, troubleshoot communication problems, and understand cybersecurity concepts.
+
+Overall, this project provides practical knowledge of computer networking, packet analysis, and network security.
